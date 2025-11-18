@@ -1,2 +1,40 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Node modules
 node_modules/
+
+# Environment variables
 .env
+.env.*
+!.env.example
+
+# Coverage (si tu fais des tests plus tard)
+coverage/
+
+# Debug
+*.local
+*.cache
+
+# Build output (si tu compiles plus tard)
+dist/
+build/
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.sw?
